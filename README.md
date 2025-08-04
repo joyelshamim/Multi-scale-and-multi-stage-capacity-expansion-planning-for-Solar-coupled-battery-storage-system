@@ -67,3 +67,4 @@ The model standardizes datasets with varying time resolutions into four uniform 
 
 ⚡ Demand vs Generation Insight (2025–2039)
 From 2025 to 2039, demand grows from 150.8 MW to 293.0 MW, while total generation from PV, hydro, and Alamoen PV remains static at ~163.8 MW, highlighting a significant energy gap show figure below.
+![Energy Vs Demand](Analysis/electricity_demand_vs_generation_grayscale.pdf)
