@@ -51,4 +51,19 @@ The electrical power network centers around the **Alamoen substation (B)** and c
 - Power is distributed from Alamoen to the **Reskjem substation (E)** via a 15 km 132 kV transmission line.
 - A proposed **150 MW solar power plant (D)** is planned in Hjartdal, 1.8 km from Alamoen, connected via a 0.25 km feeder line and 33 kV switchgear.
 
+## Data Standardisation
+The model is driven by the different resolution time-series datasets corresponding to three generation units and the overall network demand, as shown in the table below.
 
+| **Sl No** | **Datasets**            | **Time Resolution** |
+|-----------|--------------------------|----------------------|
+| 1         | Load Demand              | 10 min               |
+| 2         | Solar PV generation      | 15 min               |
+| 3         | Hydro generation         | 5 min                |
+| 4         | Alamoen PV generation    | 60 min               |
+The dataset comprises a 15-year temporal span, incorporating both historical operational data and forecasted projections from 2025 to 2039.
+
+🕒 Multi-Scale Data Standardization
+The model standardizes datasets with varying time resolutions into four uniform intervals: 5-min, 15-min, 30-min, and 1-hour, ensuring consistency for performance evaluation across temporal scales.
+
+⚡ Demand vs Generation Insight (2025–2039)
+From 2025 to 2039, demand grows from 150.8 MW to 293.0 MW, while total generation from PV, hydro, and Alamoen PV remains static at ~163.8 MW, highlighting a significant energy gap show figure below.
