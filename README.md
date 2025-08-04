@@ -66,7 +66,7 @@ The dataset comprises a 15-year temporal span, incorporating both historical ope
 The model standardizes datasets with varying time resolutions into four uniform intervals: 5-min, 15-min, 30-min, and 1-hour, ensuring consistency for performance evaluation across temporal scales.
 
 ⚡ Demand vs Generation Insight (2025–2039)
-From 2025 to 2039, demand grows from 150.8 MW to 293.0 MW, while total generation from PV, hydro, and Alamoen PV remains static at ~163.8 MW, highlighting a significant energy gap show figure below.
+From 2025 to 2039, demand grows from 150.8 MW to 293.0 MW, while total generation from PV, hydro, and Alamoen PV remains static at ~163.8 MW, highlighting a significant energy gap shown figure below.
 ![Energy Vs Demand](Analysis/electricity_demand_vs_generation_grayscale.png)
 
 ## Model Validation in different scenarios
@@ -83,3 +83,4 @@ Feeder Line: Most variable—single upgrade in 2038 (5-min) vs. multiple upgrade
 
 This figure shows1.3% variation shows that time resolution impacts loss estimation in power system modeling.
 
+![Scenario 1&2 Cost comparison](Analysis/scenario1_2_loss.png)
