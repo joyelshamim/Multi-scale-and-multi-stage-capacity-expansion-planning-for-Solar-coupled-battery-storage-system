@@ -83,4 +83,6 @@ Feeder Line: Most variable—single upgrade in 2038 (5-min) vs. multiple upgrade
 
 This figure shows1.3% variation shows that time resolution impacts loss estimation in power system modeling.
 
-![Scenario 1&2 Cost comparison](Analysis/scenario1_2_loss.png)
+![Scenario 1&2 Cost comparison](Cost_contribution_scenario_1_2.png)
+
+The cost comparison figure illustrated that thee technology maturity scenario demonstrates significant economic optimization potential through advanced renewable energy technologies and improved system efficiency parameters.
