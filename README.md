@@ -60,6 +60,8 @@ The model is driven by the different resolution time-series datasets correspondi
 | 2         | Solar PV generation      | 15 min               |
 | 3         | Hydro generation         | 5 min                |
 | 4         | Alamoen PV generation    | 60 min               |
+
+
 The dataset comprises a 15-year temporal span, incorporating both historical operational data and forecasted projections from 2025 to 2039.
 
 🕒 Multi-Scale Data Standardization
