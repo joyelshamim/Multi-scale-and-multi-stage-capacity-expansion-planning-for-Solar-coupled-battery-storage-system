@@ -42,8 +42,7 @@ This Model allows you to generate Single Line Diagrams (SLDs) of a grid network 
 ```
 ## Network Overview
 
-
-![Powerline diagram of the network topology](images/topology.png)
+![Powerline diagram of the network topology](Analysis/power_line_diagram.png)
 
 The electrical power network centers around the **Alamoen substation (B)** and consists of five primary nodes interconnected through transmission lines of varying voltage levels and distances.
 
