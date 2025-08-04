@@ -102,3 +102,36 @@ The below power losses figure demonstrates that loss computation exhibits sensit
 Cost contribution for upgration is showing in below figure
 
 ![Scenario 3&4 Cost comparison](Analysis/Cost_comparison_scenario_3_4.png)
+
+**Scenario 5 (Tech Maturity)**
+
+The below figure illustrates the grid Transmission Line: Requires upgrades across all resolutions—2034 for high-resolution (5-min to 30-min) and 2033 for 1-hour. Solar Main Line & Feeder Line: Upgrades begin in 2039 across all time resolutions, driven by energy security constraints, not data granularity.
+This highlights the system's need for resilience-focused reinforcement under critical conditions.
+
+![Scenario 5_ Power Cable upgration planning](Analysis/cable_upgration_scenario5.png)
+
+The chart in Figure shows a clear pattern where longer time resolutions generally result in lower average losses
+
+![Scenario 5 loss](Analysis/Scenario_5_losses.png)
+
+
+
+| **Metric**                    | **5 min** | **15 min** | **30 min** | **1 h** |
+| ----------------------------- | --------- | ---------- | ---------- | ------- |
+| Final PV Capacity (MW)        | 150.0     | 150.0      | 150.0      | 150.0   |
+| Final BESS Capacity (MW)      | 52.0      | 62.2       | 63.1       | 70.2    |
+| Power Generation Reduced (MW) | 46.6      | 46.6       | 46.6       | 46.6    |
+| Unmet Demand (MW)             | 14.1      | 2.7        | 4.1        | 3.0     |
+| Shortfall Cover Percentage    | 69.70%    | **94.20%** | 91.20%     | 93.60%  |
+
+above table shows how effectively PV and BESS cover a 46.6 MW hydropower shortfall under the energy-secure scenario: 5-min resolution covers only 69.7% of the shortfall, leading to higher unmet demand. Coarser resolutions (15-min, 30-min, 1-hour) achieve 94.2%, 91.2%, and 93.6% coverage respectively.
+
+The 15-minute resolution offers the best performance, balancing temporal accuracy and system adequacy.
+
+## Findings
+
+• The model shows that a 15-minute resolution results in the lowest average losses under the BAU scenario, even with technological maturity constraints. When degradation is included, losses gradually decrease with coarser resolutions.
+• When the hydropower generation is reduced by half, the model maintains energy security but becomes highly sensitive to time resolution, with average power losses decreasing by nearly 21% from 5-minute to 1-hour intervals.
+• Across all scenarios, the model demonstrates that higher temporal resolution datasets (e.g., 5-minute intervals) require fewer transmission cable upgrades compared to lower resolution datasets
+• Considering the power cable upgrade requirements, the model indicates a 55.56% reduction in necessary cable upgrades compared to the Business-as-Usual (BAU) scenario when degradation constraints are incorporated. However, under energy security conditions, the model requires 33.33% fewer cable upgrades relative to BAU.
+• Under an energy-secure scenario in 2039, the model shows that coarser time resolutions significantly improve the system’s ability to cover a 46.6 MW hydropower shortfall, with the 15-minute resolution achieving the highest shortfall coverage at 94.2%, indicating an optimal balance between accuracy and system adequacy.
