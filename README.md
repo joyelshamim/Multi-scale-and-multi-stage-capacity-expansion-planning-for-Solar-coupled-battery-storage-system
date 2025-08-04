@@ -131,7 +131,11 @@ The 15-minute resolution offers the best performance, balancing temporal accurac
 ## Findings
 
 • The model shows that a 15-minute resolution results in the lowest average losses under the BAU scenario, even with technological maturity constraints. When degradation is included, losses gradually decrease with coarser resolutions.
+
 • When the hydropower generation is reduced by half, the model maintains energy security but becomes highly sensitive to time resolution, with average power losses decreasing by nearly 21% from 5-minute to 1-hour intervals.
-• Across all scenarios, the model demonstrates that higher temporal resolution datasets (e.g., 5-minute intervals) require fewer transmission cable upgrades compared to lower resolution datasets
+
+• Across all scenarios, the model demonstrates that higher temporal resolution datasets (e.g., 5-minute intervals) require fewer transmission cable upgrades compared to lower resolution datasets.
+
 • Considering the power cable upgrade requirements, the model indicates a 55.56% reduction in necessary cable upgrades compared to the Business-as-Usual (BAU) scenario when degradation constraints are incorporated. However, under energy security conditions, the model requires 33.33% fewer cable upgrades relative to BAU.
+
 • Under an energy-secure scenario in 2039, the model shows that coarser time resolutions significantly improve the system’s ability to cover a 46.6 MW hydropower shortfall, with the 15-minute resolution achieving the highest shortfall coverage at 94.2%, indicating an optimal balance between accuracy and system adequacy.
