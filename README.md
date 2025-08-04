@@ -88,3 +88,9 @@ This figure shows 1.3% variation shows that time resolution impacts loss estimat
 The cost comparison figure illustrated that thee technology maturity scenario demonstrates significant economic optimization potential through advanced renewable energy technologies and improved system efficiency parameters.
 
 **Scenario 3 (PV and BESS degradation) and 4 (Degradation and Tech. Maturity)**
+
+![Scenario3_4 Power Cable upgration planning](Analysis/power_cable_upgradtion_scenario_3_4.png)
+
+![Scenario 3&4 loss](Analysis/scenario_3_4_loss.png)
+
+![Scenario 3&4 Cost comparison](Analysis/Cost_contribution_scenario_3_4.png)
