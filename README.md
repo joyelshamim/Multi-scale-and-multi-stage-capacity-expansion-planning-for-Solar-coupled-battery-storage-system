@@ -90,9 +90,15 @@ This figure shows 1.3% variation shows that time resolution impacts loss estimat
 The cost comparison figure illustrated that thee technology maturity scenario demonstrates significant economic optimization potential through advanced renewable energy technologies and improved system efficiency parameters.
 
 **Scenario 3 (PV and BESS degradation) and 4 (Degradation and Tech. Maturity)**
+This analysis highlights how PV and BESS degradation (Scenarios 3 & 4) affect upgrade scheduling in Hjartdal's distribution network. Temporal resolution has a significant impact, with upgrade timings shifting based on the data granularity used in the analysis. This underscores the importance of accurate time resolution in long-term grid planning under component degradation. show below figure
+
 
 ![Scenario3_4 Power Cable upgration planning](Analysis/power_cable_upgradtion_scenario_3_4.png)
 
+The below power losses figure demonstrates that loss computation exhibits sensitivity to sampling frequency, with notable variations across standard aggregation intervals.
+
 ![Scenario 3&4 loss](Analysis/Scenario_3_4_power_losses.png)
+
+Cost contribution for upgration is showing in below figure
 
 ![Scenario 3&4 Cost comparison](Analysis/Cost_comparison_scenario_3_4.png)
