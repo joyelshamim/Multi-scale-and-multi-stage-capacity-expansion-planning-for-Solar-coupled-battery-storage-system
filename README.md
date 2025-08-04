@@ -81,7 +81,7 @@ Feeder Line: Most variable—single upgrade in 2038 (5-min) vs. multiple upgrade
 
 ![Scenario 1&2 loss](Analysis/scenario1_2_loss.png)
 
-This figure shows1.3% variation shows that time resolution impacts loss estimation in power system modeling.
+This figure shows 1.3% variation shows that time resolution impacts loss estimation in power system modelling.
 
 ![Scenario 1&2 Cost comparison](Cost_contribution_scenario_1_2.png)
 
