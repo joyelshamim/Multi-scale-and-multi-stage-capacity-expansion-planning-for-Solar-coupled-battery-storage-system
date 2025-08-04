@@ -73,4 +73,7 @@ From 2025 to 2039, demand grows from 150.8 MW to 293.0 MW, while total generatio
 
 **Scenario 1 (business as usual) and 2 (technology maturity)**
 
-![Power_cable-Upgration_decision](Analysis/electricity_demand_vs_generation_grayscale.png)
+![BAU Power Cable upgration planning](Analysis/BAU Power cable upgration.png)
+
+
+![Scenario 1&2 loss](Analysis/Scenario_1_2_loss.png)
