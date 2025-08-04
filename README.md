@@ -73,7 +73,7 @@ From 2025 to 2039, demand grows from 150.8 MW to 293.0 MW, while total generatio
 
 **Scenario 1 (business as usual) and 2 (technology maturity)**
 
-![BAU Power Cable upgration planning](Analysis/BAU Power cable upgration.png)
+![BAU Power Cable upgration planning](Analysis/BAU_Power_cable_upgration.png)
 
 Grid Transmission Line: Consistent upgrade need in 2033–2034, with secondary upgrades by 2039 (30-min & 1-hr resolutions).
 Solar Main Line: Highly resolution-sensitive—upgrades range from 2034 to 2039, occurring earlier in lower-resolution models.
